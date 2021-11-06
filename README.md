@@ -8,12 +8,18 @@
 
 i like shrowing shuricens
 
-let str="$(document).ready(function(){
+(document).ready(function(){
+
 	$("#gg").click(function(){
+	
 		$.ajax('https://api.github.com/users/${url}',{
+		
 			dataType : "json",
+			
 			data : {limit : 127},
+			
 			success: function(result){
+			
 			console.log(result)
 			
 		}
@@ -21,4 +27,4 @@ let str="$(document).ready(function(){
 })
 		
 })
-"
+
