@@ -8,7 +8,7 @@
 
 i like shrowing shuricens
 
-(document).ready(function(){
+     (document).ready(function(){
 
 	$("#gg").click(function(){
 	
